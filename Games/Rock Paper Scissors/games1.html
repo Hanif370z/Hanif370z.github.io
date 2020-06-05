@@ -2,11 +2,29 @@
 <html>
 <head>
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="Games/Rock Paper Scissors/style.css">
+    <link rel="stylesheet" href="style.css">
+    <audio src="" id="myAudio"></audio>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Piedra&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <script src="Games/Rock Paper Scissors/javaScript.js">
-
-    </script>
+    <div>
+        <div class="computer">
+            <img src="img/paper.png" id="paperc">
+        </div>
+    </div>
+    <div id="hasil">
+        <h1>Result</h1>
+    </div>
+    <div id="nilai">
+        <h2>Scores</h2>
+    </div>
+    <div>
+        <div class="player">
+            <img src="img/paper.png" class="paper" onclick="start('paper')">
+            <img src="img/rock.jpeg" class="rock" onclick="start('rock')" >
+            <img src="img/scissors.png" class="scissors" onclick="start('scissors')">
+        </div>
+    </div>
+    <script src="javaScript.js"></script>
 </body>
 </html>

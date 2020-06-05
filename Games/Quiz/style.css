@@ -1,0 +1,24 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-image: url('img/FunGames.png');
+  background-repeat: no-repeat;
+background-size: cover;
+}
+.comingSoon{
+background-color:rgba(61, 200, 255, 0.753) ;
+font-family: 'Piedra', cursive;
+margin-top: 300px;
+margin-right: 400px;
+margin-left: 400px;
+border-radius: 50px;
+}
+h1{
+text-align: center;
+}
+h2{
+text-align: center;
+}
