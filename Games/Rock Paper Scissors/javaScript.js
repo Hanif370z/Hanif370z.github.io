@@ -1,6 +1,4 @@
-var x = document.getElementById("myAudio");
-x.autoplay = true;
-x.load(); 
+
 function computer(){
     const com = Math.floor(Math.random() * 3)+1;
         if(com == 1)
